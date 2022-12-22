@@ -1,0 +1,14 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Panda Syntax",
+    // "terminal.integrated.defaultProfile.windows": "Git Bash" // estabelescendo git bash terminal padrao
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "powermode.enabled": true,
+    "powermode.combo.location": "off",
+    "powermode.shake.enabled": false
+}
