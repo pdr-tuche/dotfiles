@@ -1,0 +1,2 @@
+- forçar desinstalação
+  - https://www.youtube.com/watch?v=L33E6GN8ysI
