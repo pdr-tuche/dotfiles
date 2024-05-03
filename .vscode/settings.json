@@ -1,14 +1,61 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Panda Syntax",
-    // "terminal.integrated.defaultProfile.windows": "Git Bash" // estabelescendo git bash terminal padrao
-    "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "diffEditor.ignoreTrimWhitespace": false,
     "powermode.enabled": true,
     "powermode.combo.location": "off",
-    "powermode.shake.enabled": false
-}
+    "powermode.shake.enabled": false,
+    "[markdown]": {
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": false
+    },
+    "terminal.integrated.customGlyphs": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "workbench.panel.defaultLocation": "bottom",
+    "explorer.compactFolders": false,
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.formatOnSave": true
+    },
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "editor.renderWhitespace": "trailing",
+    "window.menuBarVisibility": "toggle",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "git.suggestSmartCommit": true,
+    "rapidapi.terminalLink.enabled": false,
+    "[dockercompose]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.stickyScroll.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false
+  }
