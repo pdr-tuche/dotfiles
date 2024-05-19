@@ -1,0 +1,82 @@
+
+
+
+
+download postman
+https://dl.pstmn.io/download/latest/linux_64
+cd Downloads
+sudo tar -xzf postman-linux-x64 -C /opt
+sudo nano .local/share/applications/Postman.desktop
+```bash
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Comment= make requests
+Exec=</path/to/file>/Postman/app/Postman %U
+Icon=</path/to/file>/Postman/app/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+```
+
+
+dowload phpstorm
+https://download-cdn.jetbrains.com/webide/PhpStorm-2024.1.1.tar.gz
+
+sudo tar -xzf PhpStorm-*.tar.gz -C /opt
+
+sudo nano .local/share/applications/PhpStorm.desktop
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=JetBrains PhpStorm
+Exec=/opt/PhpStorm/bin/phpstorm.sh %f
+Icon=/opt/PhpStorm/bin/webide.png
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=jetbrains-phpstorm
+
+#real
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PhpStorm
+Icon=/opt/PhpStorm-241.15989.102/bin/phpstorm.svg
+Exec="/opt/PhpStorm-241.15989.102/bin/phpstorm.sh" %f
+Comment=Lightning-smart PHP IDE
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-phpstorm
+StartupNotify=true
+
+
+sudo apt install zsh
+chsh -s $(which zsh)
+
+
+https://app.warp.dev/get_warp?package=deb
+cd Downloads
+sudo dpkg -i warp-terminal*.deb
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+
+apt-get install ca-certificates apt-transport-https software-properties-common
+add-apt-repository ppa:ondrej/php
+apt-get update
+apt-get install php8.3
+
+
+apt install flameshot -y
+
+
+
+
+
+
+
+
