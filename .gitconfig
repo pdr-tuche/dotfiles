@@ -1,0 +1,12 @@
+[user]
+	name = Pedro Neves
+	email = 55400486+pdr-tuche@users.noreply.github.com
+[alias]
+	s = !git status
+	c = !git add . && git commit -m
+	amend = !git add . && git commit --amend --no-edit
+	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s %C(cyan)[%cn] %C(green)%cr'
+	pu = !git pull upstream
+	po = !git push origin
+	ch = !git checkout
+	cb = !git checkout -b
